@@ -62,8 +62,7 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 669px;
-    border-bottom: 1px solid black;
+    height: 400px;
 }
 .home > div > img {
     padding: 20px;
@@ -155,13 +154,69 @@ body > a:nth-child(4) > section > h1
 }
 .contactcontainer{
     margin:0 auto;
-    width:500px;
+    width:600px;
 }
 .contactinfo{
-    width:200px;
+    width:400px;
     float:left;
 }
 .mail {
     float:right;
     width:200px;
+}
+.mail input {
+    max-width: 350px;
+    height: 1.66em;
+    background: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-family: 'Source Code Pro', sans-serif;
+}
+.mail textarea {
+    max-width: 350px;
+    background: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-family: 'Source Code Pro', sans-serif;
+}
+.contact p {
+    text-align:center;
+    font-family: 'Source Code Pro', sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    padding-bottom:20px;
+}
+.contactinfo p{
+    text-align:left;
+    font-family: 'Source Code Pro', sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.contactinfo h2 {
+     font-family: 'Abel', sans-serif;
+     text-align: left;
+ }
+.contactinfo h3 {
+    font-family: 'Abel', sans-serif;
+    text-align: left;
+}
+.contactinfo hr {
+    border-color:black;
+    width:300px;
+}
+.contactinfo img {
+    display:inline-block;
+    height: 64px;
+    width: 64px;
+    padding-top:7px;
+    padding-left:7px;
+}
+.mail p {
+    text-align:left;
+    padding-bottom:0px;
+    font-family: 'Source Code Pro', sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
