@@ -18,6 +18,9 @@
     font-size: 0.9em;
     margin: 0 0.5em;
 }
+li {
+    display: inline;
+}
 .home > p {
     margin: 0 auto;
     font-family: 'Source Code Pro', sans-serif;
