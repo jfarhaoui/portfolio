@@ -28,6 +28,9 @@ li {
     color: whitesmoke;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+.magnify{
+    width:250px;
+}
 .home {
     padding-top: 50px;
     padding-bottom: 120px;
